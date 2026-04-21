@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-AmaPetsApplication<AmaPets>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.mossad.AmaPets.AmaPetsApplication",
+            "projectName": "AmaPets",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
