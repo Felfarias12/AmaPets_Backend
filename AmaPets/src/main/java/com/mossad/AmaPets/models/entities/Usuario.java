@@ -20,9 +20,8 @@ public class Usuario {
     @Column(nullable=false)
     private int edad;
     @Column(nullable=false)
-    private String sexo;
+    private String genero;
     @Column(nullable=false)
     private String correo;
     
-
 }
