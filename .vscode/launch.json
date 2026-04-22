@@ -8,6 +8,27 @@
             "mainClass": "com.mossad.AmaPets.AmaPetsApplication",
             "projectName": "AmaPets",
             "args": "",
+            "envFile": "${workspaceFolder}/.env",
+            "vmArgs": " -Dcom.sun.management.jmxremote"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-DemoApplication<demo>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.mossad.amapets.mascota.DemoApplication",
+            "projectName": "demo",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-AmapetsMascotaApplication<amapets_mascota>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.mossad.amapets_mascota.AmapetsMascotaApplication",
+            "projectName": "amapets_mascota",
+            "args": "",
             "envFile": "${workspaceFolder}/.env"
         }
     ]
