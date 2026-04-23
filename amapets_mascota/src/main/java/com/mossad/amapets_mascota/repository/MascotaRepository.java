@@ -2,7 +2,7 @@ package com.mossad.amapets_mascota.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
-import com.mossad.amapets_mascota.model.Mascota;
+import com.mossad.amapets_mascota.model.entities.Mascota;
 
 
 

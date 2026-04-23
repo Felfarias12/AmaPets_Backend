@@ -4,7 +4,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import java.util.List;
 import org.springframework.stereotype.Service;
 
-import com.mossad.amapets_mascota.model.Mascota;
+import com.mossad.amapets_mascota.model.entities.Mascota;
 import com.mossad.amapets_mascota.repository.MascotaRepository;
 
 @Service

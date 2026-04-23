@@ -11,7 +11,8 @@ import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import com.mossad.amapets_mascota.model.Mascota;
+
+import com.mossad.amapets_mascota.model.entities.Mascota;
 import com.mossad.amapets_mascota.service.MascotaService;
 
 

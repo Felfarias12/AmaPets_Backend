@@ -1,4 +1,4 @@
-package com.mossad.amapets_mascota.model;
+package com.mossad.amapets_mascota.model.entities;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
