@@ -29,6 +29,17 @@
             "mainClass": "com.mossad.amapets_mascota.AmapetsMascotaApplication",
             "projectName": "amapets_mascota",
             "args": "",
+            "envFile": "${workspaceFolder}/.env",
+            "vmArgs": " -Dcom.sun.management.jmxremote"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-AmaPetsVeterinarioApplication<AmaPets_veterinario>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.mossad.AmaPets_veterinario.AmaPetsVeterinarioApplication",
+            "projectName": "AmaPets_veterinario",
+            "args": "",
             "envFile": "${workspaceFolder}/.env"
         }
     ]
