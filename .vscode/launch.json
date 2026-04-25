@@ -41,6 +41,36 @@
             "projectName": "AmaPets_veterinario",
             "args": "",
             "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-AmaPetsHospitalizacionApplication<ama_pets_hospitalizacion>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.mossad.ama_pets_hospitalizacion.AmaPetsHospitalizacionApplication",
+            "projectName": "ama_pets_hospitalizacion",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-AmapetsRecetaApplication<amapets_receta>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.mossad.amapets_receta.AmapetsRecetaApplication",
+            "projectName": "amapets_receta",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-AmaPetsTecMedicoApplication<AmaPets_tec_medico>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.mossad.AmaPets_tec_medico.AmaPetsTecMedicoApplication",
+            "projectName": "AmaPets_tec_medico",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
         }
     ]
 }
