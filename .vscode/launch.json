@@ -84,6 +84,36 @@
             "projectName": "amapets_usuario",
             "args": "",
             "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-AmaPetsConsultaApplication<AmaPets_consulta>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.mossad.AmaPets_consulta.AmaPetsConsultaApplication",
+            "projectName": "AmaPets_consulta",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-AmaPetsFichaClinicaApplication<AmaPets_Ficha_Clinica>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.mossad.AmaPets_Ficha_Clinica.AmaPetsFichaClinicaApplication",
+            "projectName": "AmaPets_Ficha_Clinica",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-AmaPetsNotificacionApplication<AmaPets_Notificacion>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.mossad.AmaPets_Notificacion.AmaPetsNotificacionApplication",
+            "projectName": "AmaPets_Notificacion",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
         }
     ]
 }
