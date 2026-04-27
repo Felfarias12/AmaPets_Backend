@@ -26,4 +26,6 @@ public class consulta {
     @Column(nullable = false)
     private String diagnostico;
     
+    @Column(nullable = false)
+    private String tratamiento;
 }
