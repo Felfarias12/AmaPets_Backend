@@ -1,14 +1,14 @@
 package com.mossad.AmaPets_consulta.service;
 
-import org.springframework.beans.factory.annotation.Autowired;
 import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.mossad.AmaPets_consulta.model.entities.Consulta;
 import com.mossad.AmaPets_consulta.repository.ConsultaRepository;
-
 @Service
-public class consultaService {
+public class ConsultaService {
 
     @Autowired
     private ConsultaRepository consrepo;
@@ -24,7 +24,7 @@ public class consultaService {
     public Consulta actualizarConsulta(int id, Consulta consulta) {
         Consulta consultaExistente = consrepo.findById(id).orElse(null);
         if (consultaExistente != null) {
-            consultaExistente.setFecha(consulta.getFecha());
+            consultaExistente.setFecha_consulta(consulta.getFecha_consulta());
             consultaExistente.setMotivo(consulta.getMotivo());
             consultaExistente.setDiagnostico(consulta.getDiagnostico());
             consultaExistente.setTratamiento(consulta.getTratamiento());

@@ -19,7 +19,7 @@ import com.mossad.AmaPets_consulta.service.ConsultaService;
 
 @RestController
 @RequestMapping("/consultas")
-public class consultaController {
+public class ConsultaController {
 
     @Autowired
     private ConsultaService consultaService;

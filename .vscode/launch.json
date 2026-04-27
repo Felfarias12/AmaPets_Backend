@@ -50,7 +50,8 @@
             "mainClass": "com.mossad.ama_pets_hospitalizacion.AmaPetsHospitalizacionApplication",
             "projectName": "ama_pets_hospitalizacion",
             "args": "",
-            "envFile": "${workspaceFolder}/.env"
+            "envFile": "${workspaceFolder}/.env",
+            "vmArgs": " -Dcom.sun.management.jmxremote"
         },
         {
             "type": "java",
@@ -60,7 +61,8 @@
             "mainClass": "com.mossad.amapets_receta.AmapetsRecetaApplication",
             "projectName": "amapets_receta",
             "args": "",
-            "envFile": "${workspaceFolder}/.env"
+            "envFile": "${workspaceFolder}/.env",
+            "vmArgs": " -Dcom.sun.management.jmxremote"
         },
         {
             "type": "java",
@@ -69,6 +71,17 @@
             "cwd": "${workspaceFolder}",
             "mainClass": "com.mossad.AmaPets_tec_medico.AmaPetsTecMedicoApplication",
             "projectName": "AmaPets_tec_medico",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env",
+            "vmArgs": " -Dcom.sun.management.jmxremote"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-AmaPetsApplication<amapets_usuario>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.mossad.AmaPets.AmaPetsApplication",
+            "projectName": "amapets_usuario",
             "args": "",
             "envFile": "${workspaceFolder}/.env"
         }

@@ -1,5 +1,7 @@
 package com.mossad.AmaPets_consulta.model.entities;
 
+import java.util.Date;
+
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -11,7 +13,7 @@ import lombok.Data;
 @Entity
 @Data
 @Table(name = "CONSULTA")
-public class consulta {
+public class Consulta {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
