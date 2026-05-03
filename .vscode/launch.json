@@ -114,6 +114,16 @@
             "projectName": "AmaPets_Notificacion",
             "args": "",
             "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-AmaPetsCirugiaApplication<AmaPets_cirugia>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.mossad.AmaPets_cirugia.AmaPetsCirugiaApplication",
+            "projectName": "AmaPets_cirugia",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
         }
     ]
 }
