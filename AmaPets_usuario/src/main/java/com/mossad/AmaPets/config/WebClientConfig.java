@@ -13,4 +13,18 @@ public class WebClientConfig {
         .baseUrl("http://localhost:7579/").build();
     }
     
+
+    //Receta
+    @Bean
+    public WebClient recetaWebClient(){
+        return WebClient.builder()
+        .baseUrl("http://localhost:7581/").build();
+    }
+
+    //consulta
+    @Bean
+    public WebClient consultaWebClient(){
+        return WebClient.builder()
+        .baseUrl("http://localhost:7583/").build();
+    }
 }
