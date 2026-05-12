@@ -1,0 +1,6 @@
+com\mossad\AmaPets_Notificacion\models\entities\Notificacion.class
+com\mossad\AmaPets_Notificacion\repository\NotificacionRepository.class
+com\mossad\AmaPets_Notificacion\AmaPetsNotificacionApplication.class
+com\mossad\AmaPets_Notificacion\config\WebClientConfig.class
+com\mossad\AmaPets_Notificacion\controller\NotificacionController.class
+com\mossad\AmaPets_Notificacion\service\NotificacionService.class
