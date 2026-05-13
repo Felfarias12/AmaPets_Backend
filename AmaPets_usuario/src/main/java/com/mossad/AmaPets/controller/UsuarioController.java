@@ -31,7 +31,7 @@ public class UsuarioController {
         return usuarioService.obtenerTodosLosUsuarios();
     }
     //post
-    @PostMapping("/login")
+    @PostMapping("")
     public Usuario crearUsuario(@RequestBody Usuario usuario) {
         return usuarioService.crearUsuario(usuario);
     }
