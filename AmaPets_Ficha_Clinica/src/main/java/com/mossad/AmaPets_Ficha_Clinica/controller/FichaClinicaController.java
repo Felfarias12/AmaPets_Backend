@@ -31,7 +31,7 @@ public class FichaClinicaController {
     }
 
     // post
-    @PostMapping("/crear")
+    @PostMapping("")
     public FichaClinica crearFicha(@RequestBody FichaClinica fichaClinica) {
         return fichaClinicaService.crearFicha(fichaClinica);
     }
