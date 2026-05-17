@@ -25,14 +25,15 @@ public class FichaClinicaService {
     public FichaClinica actualizarFicha(int id, FichaClinica fichaActualizada) {
         FichaClinica fichaExistente = fichaClinicaRepo.findById(id).orElse(null);
         if (fichaExistente != null) {
-            fichaExistente.setFecha_creacion(fichaActualizada.getFecha_creacion());
-            fichaExistente.setRaza(fichaActualizada.getRaza());
-            fichaExistente.setEspecie(fichaActualizada.getEspecie());
-            fichaExistente.setId_usuario(fichaActualizada.getId_usuario());
-            fichaExistente.setAlergias(fichaActualizada.getAlergias());
-            fichaExistente.setVacunas(fichaActualizada.getVacunas());
-            fichaExistente.setFecha_bitacora(fichaActualizada.getFecha_bitacora());
-            fichaExistente.setObservaciones(fichaActualizada.getObservaciones());
+            fichaExistente.setMascotaId(fichaActualizada.getMascotaId());
+            fichaExistente.setFecha(fichaActualizada.getFecha());
+            fichaExistente.setMotivo(fichaActualizada.getMotivo());
+            fichaExistente.setVeterinario(fichaActualizada.getVeterinario());
+            fichaExistente.setPeso(fichaActualizada.getPeso());
+            fichaExistente.setTemperatura(fichaActualizada.getTemperatura());
+            fichaExistente.setDiagnostico(fichaActualizada.getDiagnostico());
+            fichaExistente.setTratamiento(fichaActualizada.getTratamiento());
+            fichaExistente.setNotas(fichaActualizada.getNotas());
             return fichaClinicaRepo.save(fichaExistente);
         }
         return null;
