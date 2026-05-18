@@ -20,26 +20,29 @@ public class FichaClinica {
     private int id_ficha_clinica;
 
     @Column(nullable = false)
-    private LocalDate fecha_creacion;
+    private int mascotaId;
 
     @Column(nullable = false)
-    private String raza;
+    private LocalDate fecha;
 
     @Column(nullable = false)
-    private String especie;
+    private String motivo;
 
     @Column(nullable = false)
-    private int id_usuario;
+    private String veterinario;
 
-    @Column(nullable = true)
-    private String alergias;
+    @Column(nullable = false)
+    private double peso;
 
-    @Column(nullable = true)
-    private String vacunas;
+    @Column(nullable = false)
+    private String temperatura;
 
-    @Column(nullable = true)
-    private LocalDate fecha_bitacora;
+    @Column(nullable = false)
+    private String diagnostico;
+
+    @Column(nullable = false)
+    private String tratamiento;
 
     @Column(nullable = true, length = 1000)
-    private String observaciones;
+    private String notas;
 }

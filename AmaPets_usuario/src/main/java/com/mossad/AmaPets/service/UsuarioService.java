@@ -25,8 +25,8 @@ public class UsuarioService {
         if (usuarioExistente != null) {
             usuarioExistente.setNombre(usuario.getNombre());
             usuarioExistente.setEdad(usuario.getEdad());
-            usuarioExistente.setGenero(usuario.getGenero());
             usuarioExistente.setCorreo(usuario.getCorreo());
+            usuarioExistente.setContrasena(usuario.getContrasena());
             return usurepo.save(usuarioExistente);
         }
         return null;

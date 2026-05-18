@@ -26,8 +26,6 @@ public class ConsultaService {
         if (consultaExistente != null) {
             consultaExistente.setFecha_consulta(consulta.getFecha_consulta());
             consultaExistente.setMotivo(consulta.getMotivo());
-            consultaExistente.setDiagnostico(consulta.getDiagnostico());
-            consultaExistente.setTratamiento(consulta.getTratamiento());
             return consrepo.save(consultaExistente);
         }
         return null;
