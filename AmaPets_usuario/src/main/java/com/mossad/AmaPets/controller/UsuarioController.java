@@ -17,7 +17,7 @@ import com.mossad.AmaPets.models.entities.Usuario;
 import com.mossad.AmaPets.service.UsuarioService;
 
 
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "http://98.89.248.191")
 @RequestMapping("/usuarios")
 @RestController
 

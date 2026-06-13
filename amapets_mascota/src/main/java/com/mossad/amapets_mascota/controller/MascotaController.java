@@ -16,7 +16,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.mossad.amapets_mascota.model.entities.Mascota;
 import com.mossad.amapets_mascota.service.MascotaService;
 
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "http://98.89.248.191")
 @RequestMapping("/mascotas")
 @RestController
 
