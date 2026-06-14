@@ -18,7 +18,7 @@ public class OpenApiConfiguration {
         return new OpenAPI()
         .info(new Info()
         .title("Documentación API de Ficha Clínica")
-        .description("agregar, eliminar, actualizar y obtener fichas clínicas")
+        .description("crear, eliminar, actualizar y obtener fichas clínicas")
         .version("1.0.1")
         );
     }
