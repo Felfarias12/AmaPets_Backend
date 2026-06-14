@@ -16,7 +16,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.mossad.AmaPets_tec_medico.model.entities.TecMedico;
 import com.mossad.AmaPets_tec_medico.service.TecMedicoService;
  
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "http://13.216.64.47")
 @RequestMapping("/tecnicosmedicos")
 @RestController
 public class TecMedicoController {

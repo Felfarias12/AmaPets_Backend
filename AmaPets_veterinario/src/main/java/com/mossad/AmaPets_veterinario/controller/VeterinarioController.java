@@ -16,7 +16,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.mossad.AmaPets_veterinario.model.entities.Veterinario;
 import com.mossad.AmaPets_veterinario.service.VeterinarioService;
 
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "http://98.89.248.191")
 @RequestMapping("/veterinarios")
 @RestController
 

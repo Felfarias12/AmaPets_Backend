@@ -16,7 +16,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.mossad.AmaPets_Ficha_Clinica.models.entities.FichaClinica;
 import com.mossad.AmaPets_Ficha_Clinica.service.FichaClinicaService;
 
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "http://13.216.64.47")
 @RequestMapping("/fichas")
 @RestController
 public class FichaClinicaController {
@@ -28,7 +28,7 @@ public class FichaClinicaController {
     @GetMapping("")
     public List<FichaClinica> obtenerTodasLasFichas() {
         return fichaClinicaService.obtenerTodasLasFichas();
-    }
+    } 
 
     // post
     @PostMapping("")
