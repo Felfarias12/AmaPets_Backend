@@ -15,7 +15,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.mossad.amapets_receta.model.entities.Receta;
 import com.mossad.amapets_receta.service.RecetaService;
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "http://13.216.64.47")
 @RestController
 @RequestMapping("/recetas")
 public class RecetaController {
