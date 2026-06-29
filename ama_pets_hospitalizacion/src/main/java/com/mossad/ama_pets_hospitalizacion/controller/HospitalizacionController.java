@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.mossad.ama_pets_hospitalizacion.model.entities.Hospitalizacion;
 import com.mossad.ama_pets_hospitalizacion.service.HospitalizacionService;
 
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "32.192.99.76")
 @RequestMapping("/hospitalizaciones")
 @RestController
 

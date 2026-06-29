@@ -15,7 +15,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.mossad.AmaPets_Notificacion.models.entities.Notificacion;
 import com.mossad.AmaPets_Notificacion.service.NotificacionService;
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "32.192.99.76")
 @RequestMapping("/notificaciones")
 @RestController
 public class NotificacionController {
